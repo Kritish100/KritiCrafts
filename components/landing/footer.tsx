@@ -254,13 +254,13 @@ export function Footer() {
           {/* Bottom Bar */}
           <div className="flex flex-col items-center justify-between gap-6 border-t border-border pt-8 sm:flex-row">
             <div className="flex items-center gap-2">
-              <div className="flex h-6 w-6 items-center justify-center rounded bg-primary">
-                <span className="text-xs font-bold text-primary-foreground">
-                  S
+              <div className="flex h-6 w-6 items-center justify-center rounded bg-accent">
+                <span className="text-xs font-bold text-accent-foreground">
+                  KC
                 </span>
               </div>
               <span className="text-sm text-muted-foreground">
-                © 2026 Studio. All rights reserved.
+                © 2026 Kriti Crafts. All rights reserved.
               </span>
             </div>
 
@@ -318,7 +318,7 @@ export function Footer() {
                     <span className="h-3 w-3 rounded-full bg-success" />
                   </div>
                   <span className="ml-2 font-mono text-xs text-muted-foreground">
-                    dev-console — studio
+                    dev-console — kriti-crafts
                   </span>
                 </div>
                 <Button
@@ -344,7 +344,7 @@ export function Footer() {
                     <span className="text-muted-foreground">
                       {"  "}&quot;name&quot;:
                     </span>{" "}
-                    <span className="text-success">&quot;Studio Landing Page&quot;</span>,
+                    <span className="text-success">&quot;Kriti Crafts&quot;</span>,
                     {"\n"}
                     <span className="text-muted-foreground">
                       {"  "}&quot;version&quot;:

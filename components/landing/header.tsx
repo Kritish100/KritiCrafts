@@ -32,10 +32,10 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-            <span className="text-sm font-bold text-primary-foreground">S</span>
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent">
+            <span className="text-sm font-bold text-accent-foreground">KC</span>
           </div>
-          <span className="text-lg font-semibold">Studio</span>
+          <span className="text-lg font-semibold">Kriti Crafts</span>
         </a>
 
         {/* Desktop Navigation */}
