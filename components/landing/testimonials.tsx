@@ -88,7 +88,7 @@ export function Testimonials() {
           className="mb-16 text-center"
         >
           <h2 className="mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-            Loved by Teams Worldwide
+            Client Success Stories
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
             {"Don't"} just take our word for it. Here&apos;s what our clients have to

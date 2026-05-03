@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Studio | Enterprise Software Solutions",
+  title: "Kriti Crafts | Enterprise Software Solutions",
   description:
     "Solo developer crafting innovative solutions with AI, modern web technologies, and creative problem-solving.",
   keywords: [
@@ -29,33 +29,34 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Studio" }],
   openGraph: {
-    title: "Studio | Enterprise Software Solutions",
+    title: "Kriti Crafts | Enterprise Software Solutions",
     description:
       "Solo developer crafting innovative solutions with AI, modern web technologies, and creative problem-solving.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Studio | Enterprise Software Solutions",
+    title: "Kriti Crafts | Enterprise Software Solutions",
     description:
       "Solo developer crafting innovative solutions with AI, modern web technologies, and creative problem-solving.",
   },
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/kc-icon-48x48.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/kc-icon-48x48.png",
         media: "(prefers-color-scheme: dark)",
       },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
+      // {
+      //   url: "/icon.svg",
+      //   type: "image/svg+xml",
+      // },
     ],
-    apple: "/apple-icon.png",
+    // apple: "/apple-icon.png",
+    apple: "/kc-icon-48x48.png",
   },
 }
 
