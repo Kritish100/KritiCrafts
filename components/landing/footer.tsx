@@ -254,10 +254,11 @@ export function Footer() {
           {/* Bottom Bar */}
           <div className="flex flex-col items-center justify-between gap-6 border-t border-border pt-8 sm:flex-row">
             <div className="flex items-center gap-2">
-              <div className="flex h-6 w-6 items-center justify-center rounded bg-accent">
-                <span className="text-xs font-bold text-accent-foreground">
+              <div className="flex h-6 w-6 items-center justify-center rounded">
+                {/* <span className="text-xs font-bold text-accent-foreground">
                   KC
-                </span>
+                </span> */}
+                <img src="/kc-icon-48x48.png" alt="Kriti Crafts Logo" className="h-4 w-4" />
               </div>
               <span className="text-sm text-muted-foreground">
                 © 2026 Kriti Crafts. All rights reserved.

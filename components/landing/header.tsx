@@ -32,8 +32,9 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-accent">
-            <span className="text-sm font-bold text-accent-foreground">KC</span>
+          <div className="flex h-8 w-8 items-center justify-center rounded-lg">
+            {/* <span className="text-sm font-bold text-accent-foreground">KC</span> */}
+            <img src="/kc-icon-48x48.png" alt="Kriti Crafts Logo" className="h-7 w-7" />
           </div>
           <span className="text-lg font-semibold">Kriti Crafts</span>
         </a>
