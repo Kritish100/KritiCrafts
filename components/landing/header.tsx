@@ -61,7 +61,7 @@ export function Header() {
             </span>
             <span className="text-xs text-muted-foreground">
               <span className="hidden lg:inline">Developer Status: </span>
-              <span className="text-foreground">Available for 1 New Project</span>
+              <span className="text-foreground">Available</span>
             </span>
           </div>
 

@@ -136,7 +136,7 @@ export function Products() {
                 {isSignature ? (
                   <div className="absolute top-4 right-4 flex items-center gap-1.5 rounded-full bg-accent px-3 py-1.5 text-sm font-semibold text-accent-foreground shadow-lg">
                     <Flame className="h-4 w-4" />
-                    Our Signature
+                    Hot
                   </div>
                 ) : product.aiFeature ? (
                   <div className="absolute top-4 right-4 flex items-center gap-1 rounded-full bg-accent/10 border border-accent/20 px-2.5 py-1 text-xs font-medium text-accent">

@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Studio | Enterprise Software Solutions",
   description:
-    "We build custom CRM, ERP, LMS, HRMS, and AI-powered solutions that scale with your business. From WhatsApp integrations to intelligent data analysis.",
+    "Solo developer crafting innovative solutions with AI, modern web technologies, and creative problem-solving.",
   keywords: [
     "CRM",
     "ERP",
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Studio | Enterprise Software Solutions",
     description:
-      "We build custom CRM, ERP, LMS, HRMS, and AI-powered solutions that scale with your business.",
+      "Solo developer crafting innovative solutions with AI, modern web technologies, and creative problem-solving.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Studio | Enterprise Software Solutions",
     description:
-      "We build custom CRM, ERP, LMS, HRMS, and AI-powered solutions that scale with your business.",
+      "Solo developer crafting innovative solutions with AI, modern web technologies, and creative problem-solving.",
   },
   icons: {
     icon: [
@@ -81,7 +81,7 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >

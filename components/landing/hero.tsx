@@ -53,9 +53,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground text-pretty sm:text-xl"
           >
-            We build custom CRM, ERP, LMS, HRMS, and AI-powered solutions that
-            scale with your business. From WhatsApp integrations to intelligent
-            data analysis.
+            Solo developer crafting innovative solutions with AI, modern web technologies, and creative problem-solving.
           </motion.p>
 
           {/* CTAs */}
